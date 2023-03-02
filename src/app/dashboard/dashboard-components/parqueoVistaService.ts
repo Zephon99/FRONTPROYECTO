@@ -12,13 +12,13 @@ import {Router} from  '@angular/router';
 @Injectable()
 export class ParqueoVistaService {
 
-private urlEndPoint:string='http://parkingapp-env.eba-37rm2yjx.us-east-1.elasticbeanstalk.com/reservadia/cantidadFechas';
-private urlEndPoint2:string='http://parkingapp-env.eba-37rm2yjx.us-east-1.elasticbeanstalk.com/reservadia/cantidadDias';
-private urlEndPoint3:string='http://parkingapp-env.eba-37rm2yjx.us-east-1.elasticbeanstalk.com/reservadia/cantidadParqueoReservas';
-private urlEndPoint4:string='http://parkingapp-env.eba-37rm2yjx.us-east-1.elasticbeanstalk.com/reservadia/cantidadReservasParqueo';
-private urlEndPoint5:string='http://parkingapp-env.eba-37rm2yjx.us-east-1.elasticbeanstalk.com/reservadia/cantidadReservasMes';
-private urlEndPoint6:string='http://parkingapp-env.eba-37rm2yjx.us-east-1.elasticbeanstalk.com/reservadia/cantidadMesReserva';
-private urlEndPoint7:string='http://parkingapp-env.eba-37rm2yjx.us-east-1.elasticbeanstalk.com/queja/listaQuejas';
+private urlEndPoint:string='http://tesis3-env.eba-aqm3jchh.us-east-1.elasticbeanstalk.com/reservadia/cantidadFechas';
+private urlEndPoint2:string='http://tesis3-env.eba-aqm3jchh.us-east-1.elasticbeanstalk.com/reservadia/cantidadDias';
+private urlEndPoint3:string='http://tesis3-env.eba-aqm3jchh.us-east-1.elasticbeanstalk.com/reservadia/cantidadParqueoReservas';
+private urlEndPoint4:string='http://tesis3-env.eba-aqm3jchh.us-east-1.elasticbeanstalk.com/reservadia/cantidadReservasParqueo';
+private urlEndPoint5:string='http://tesis3-env.eba-aqm3jchh.us-east-1.elasticbeanstalk.com/reservadia/cantidadReservasMes';
+private urlEndPoint6:string='http://tesis3-env.eba-aqm3jchh.us-east-1.elasticbeanstalk.com/reservadia/cantidadMesReserva';
+private urlEndPoint7:string='http://tesis3-env.eba-aqm3jchh.us-east-1.elasticbeanstalk.com/queja/listaQuejas';
 //private urlEndPoint3:string='http://localhost:8080/reservadia/cantidad2';
 private httpHeaders = new HttpHeaders ({'Content-Type': 'application/json'});
 constructor(private http:HttpClient, private router:Router) { }
